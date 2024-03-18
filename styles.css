@@ -1,0 +1,19 @@
+.container{
+	display:inline-grid;
+	grid-template-columns:repeat(40,auto);
+	grid-template-rows:repeat(10,auto);
+	row-gap: 1px;
+    column-gap: 1px;
+    justify-items: left;
+    align-content: start;
+    
+}
+.square{
+	width:40px;
+	height:40px;
+	background-color:rgb(29, 29, 29);
+	transition: background-color 1s ease;
+}
+.square:hover {
+    background-color: lightblue;
+}
